@@ -1,0 +1,1161 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Este es software libre; consulte en el c�digo fuente las condiciones de copia.
+# NO hay garant�a; ni siquiera para MERCANTIBILIDAD o EL CUMPLIMIENTO DE
+# ALG�N PROP�SITO PARTICULAR.
+
+ # Este programa fue construido para i386-pc-mingw32
+ 
+
+# Base de datos del Make, mostrada en Fri Jul 29 11:44:59 2022
+
+# Variables
+
+# autom�tica/o
+<D = $(patsubst %/,%,$(dir $<))
+# autom�tica/o
+?F = $(notdir $?)
+# entorno
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (de `makefile', l�nea 141):
+LDSCRIPT = STM32F407VGTx_FLASH.ld
+# makefile
+MAKEFLAGS = Rrqp
+# entorno
+LC_CTYPE = es_MX.UTF-8
+# makefile (de `makefile', l�nea 16):
+TARGET = uart_modelo
+# autom�tica/o
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (de `makefile', l�nea 103):
+AS_DEFS = 
+# makefile (de `makefile', l�nea 112):
+AS_INCLUDES = 
+# autom�tica/o
+@D = $(patsubst %/,%,$(dir $@))
+# entorno
+HOMEDRIVE = C:
+# autom�tica/o
+@F = $(notdir $@)
+# autom�tica/o
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/gvela/Documents/proyecto_stm32/uart_modelo
+# makefile
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
+# entorno
+CONFIG_SITE = C:/Program Files/Git/etc/config.site
+# makefile (de `makefile', l�nea 84):
+BIN = $(CP) -O binary -S
+# entorno
+WINDIR = C:\WINDOWS
+# entorno
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# makefile (de `makefile', l�nea 81):
+SZ = $(PREFIX)size
+# entorno
+_ = C:/Users/gvela/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# makefile (de `makefile', l�nea 134):
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
+# entorno
+ONEDRIVE = C:\Users\gvela\OneDrive
+# entorno
+ZES_ENABLE_SYSMAN = 1
+# entorno
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (de `build/uart.d', l�nea 1):
+MAKEFILE_LIST :=  makefile build/main.d build/startup_stm32f407xx.d build/stm32f4xx_hal.d build/stm32f4xx_hal_cortex.d build/stm32f4xx_hal_dma.d build/stm32f4xx_hal_dma_ex.d build/stm32f4xx_hal_exti.d build/stm32f4xx_hal_flash.d build/stm32f4xx_hal_flash_ex.d build/stm32f4xx_hal_flash_ramfunc.d build/stm32f4xx_hal_gpio.d build/stm32f4xx_hal_msp.d build/stm32f4xx_hal_pwr.d build/stm32f4xx_hal_pwr_ex.d build/stm32f4xx_hal_rcc.d build/stm32f4xx_hal_rcc_ex.d build/stm32f4xx_hal_tim.d build/stm32f4xx_hal_tim_ex.d build/stm32f4xx_hal_uart.d build/stm32f4xx_it.d build/system_stm32f4xx.d build/uart.d
+# makefile (de `makefile', l�nea 80):
+CP = $(PREFIX)objcopy
+# makefile (de `makefile', l�nea 159):
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# makefile (de `makefile', l�nea 23):
+DEBUG = 1
+# entorno
+TMP = C:\Users\gvela\AppData\Local\Temp
+# makefile (de `makefile', l�nea 79):
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# entorno
+PROGRAMW6432 = C:\Program Files
+# entorno
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+# entorno
+PROGRAMDATA = C:\ProgramData
+# entorno
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# entorno
+VSCODE_CWD = C:\Users\gvela\Documents\proyecto_stm32\uart_modelo
+# entorno
+PATH = C:\Users\gvela\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\gvela\bin;C:\Users\gvela\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\gvela\AppData\Local\Programs\Python\Python310;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\gvela\AppData\Local\Microsoft\WindowsApps;C:\Users\gvela\AppData\Local\Programs\Microsoft VS Code\bi;C:\Program Files (x86)\GnuWin32\bin";C:\Users\gvela\Documents\openocd\xpack-openocd-0.11.0-3\bin;C:\Users\gvela\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\gvela\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# entorno
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# entorno
+TERM_PROGRAM_VERSION = 3.5.2
+# entorno
+CHOCOLATEYLASTPATHUPDATE = 133027440540787620
+# entorno
+PROCESSOR_ARCHITECTURE = x86
+# entorno
+USERPROFILE = C:\Users\gvela
+# entorno
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# entorno
+MSYSTEM_CARCH = x86_64
+# entorno
+EXEPATH = C:\Program Files\Git
+# entorno
+AL 
+LUSERSPROFILE = C:\ProgramData
+# entorno
+PLINK_PROTOCOL = ssh
+# entorno
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+# entorno
+NUMBER_OF_PROCESSORS = 12
+# entorno
+ELECTRON_RUN_AS_NODE = 1
+# makefile (de `makefile', l�nea 146):
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# entorno
+ORIGINAL_TEMP = C:/Users/gvela/AppData/Local/Temp
+# por defecto
+.FEATURES := target-specific order-only second-expansion else-if archives
+# autom�tica/o
+%F = $(notdir $%)
+# entorno
+DISPLAY = needs-to-be-defined
+# entorno
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3620_FURMKLUFHCMAWNWC
+# makefile (de `makefile', l�nea 62):
+ASM_SOURCES = startup_stm32f407xx.s
+# makefile (de `makefile', l�nea 25):
+OPT = -Og
+# entorno
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\gvela\bin;C:\Users\gvela\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\gvela\AppData\Local\Programs\Python\Python310;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\gvela\AppData\Local\Microsoft\WindowsApps;C:\Users\gvela\AppData\Local\Programs\Microsoft VS Code\bi;C:\Program Files (x86)\GnuWin32\bin";C:\Users\gvela\Documents\openocd\xpack-openocd-0.11.0-3\bin;C:\Users\gvela\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\gvela\AppData\Roaming\npm
+# entorno
+COMPUTERNAME = DESKTOP-5F2VHAP
+# entorno
+PWD = C:/Users/gvela/Documents/proyecto_stm32/uart_modelo
+# entorno
+PROGRAMFILES = C:\Program Files (x86)
+# entorno
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# entorno
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# entorno
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# entorno
+USERNAME = gvela
+# entorno
+PUBLIC = C:\Users\Public
+# entorno
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# entorno
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# entorno
+HOME = C:\Users\gvela
+# entorno
+VSCODE_CLI = 1
+# entorno
+VSCODE_CODE_CACHE_PATH = C:\Users\gvela\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# entorno
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# entorno
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# entorno
+LOGONSERVER = \\DESKTOP-5F2VHAP
+# makefile (de `makefile', l�nea 69):
+PREFIX = arm-none-eabi-
+# entorno
+ONEDRIVECONSUMER = C:\Users\gvela\OneDrive
+# entorno
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# entorno
+USERDOMAIN = DESKTOP-5F2VHAP
+# entorno
+HOSTNAME = DESKTOP-5F2VHAP
+# makefile (de `makefile', l�nea 106):
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32F407xx
+# makefile (de `makefile', l�nea 99):
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# makefile (de `makefile', l�nea 115):
+C_INCLUDES = -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/CMSIS/Include
+# entorno
+SSH_ASKPASS = C:/Program Files/Git/mingw64/bin/git-askpass.exe
+# entorno
+MAKE = C:\Program Files (x86)\GnuWin32\bin
+# por defecto
+MAKECMDGOALS := all
+# entorno
+SHLVL = 2
+# makefile (de `makefile', l�nea 96):
+FLOAT-ABI = -mfloat-abi=hard
+# makefile (de `makefile', l�nea 83):
+HEX = $(CP) -O ihex
+# makefile (de `makefile', l�nea 78):
+CC = $(PREFIX)gcc
+# entorno
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+# makefile (de `makefile', l�nea 32):
+BUILD_DIR = build
+# makefile (de `makefile', l�nea 124):
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# por defecto
+MAKE_VERSION := 3.81
+# entorno
+MINGW_CHOST = x86_64-w64-mingw32
+# makefile
+.DEFAULT_GOAL := all
+# entorno
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# autom�tica/o
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (de `makefile', l�nea 90):
+CPU = -mcpu=cortex-m4
+# makefile (de `makefile', l�nea 93):
+FPU = -mfpu=fpv4-sp-d16
+# entorno
+LOCALAPPDATA = C:\Users\gvela\AppData\Local
+# entorno
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# por defecto
+MAKE_COMMAND := make.exe
+# entorno
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile (de `makefile', l�nea 145):
+LIBDIR = 
+# entorno
+TERM_PROGRAM = mintty
+# por defecto
+.VARIABLES := 
+# entorno
+TMPDIR = C:\Users\gvela\AppData\Local\Temp
+# autom�tica/o
+*F = $(notdir $*)
+# entorno
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# entorno
+OS = Windows_NT
+# entorno
+VSCODE_IPC_HOOK = \\.\pipe\afb0f7ad3d211dc53a653a6247013df8-1.69.2-main-sock
+# entorno
+HOMEPATH = \Users\gvela
+# entorno
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# entorno
+PROMPT = $P$G
+# entorno
+MFLAGS = -Rrqp
+# autom�tica/o
+*D = $(patsubst %/,%,$(dir $*))
+# entorno
+ORIGINAL_TMP = C:/Users/gvela/AppData/Local/Temp
+# entorno
+SYSTEMROOT = C:\WINDOWS
+# autom�tica/o
++D = $(patsubst %/,%,$(dir $+))
+# entorno
+MINGW_PREFIX = C:/Program Files/Git/mingw64
+# autom�tica/o
++F = $(notdir $+)
+# entorno
+APPDATA = C:\Users\gvela\AppData\Roaming
+# entorno
+TEMP = C:\Users\gvela\AppData\Local\Temp
+# entorno
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# entorno
+MSYSTEM = MINGW64
+# por defecto
+MAKEFILES := 
+# entorno
+IDF_TOOLS_PATH = C:\Espressif
+# autom�tica/o
+<F = $(notdir $<)
+# entorno
+LC_ALL = C
+# makefile (de `makefile', l�nea 144):
+LIBS = -lc -lm -lnosys 
+# autom�tica/o
+^F = $(notdir $^)
+# makefile (de `makefile', l�nea 38):
+C_SOURCES = Core/Src/simo/uart.c Core/Src/main.c Core/Src/stm32f4xx_it.c Core/Src/stm32f4xx_hal_msp.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c Core/Src/system_stm32f4xx.c
+# por defecto
+SUFFIXES := 
+# entorno
+SYSTEMDRIVE = C:
+# entorno
+SESSIONNAME = Console
+# entorno
+PROCESSOR_REVISION = a502
+# entorno
+MAKELEVEL := 0
+# entorno
+PICO_SDK_PATH = C:\Users\gvela\Documents\pico-sdk
+# entorno
+LANG = C
+# entorno
+PROCESSOR_LEVEL = 6
+# entorno
+TERM = xterm
+# entorno
+VSCODE_PID = 3620
+# entorno
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
+# entorno
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-5F2VHAP
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=146/1024=14%, Rehash=0, Colisiones=19/260=7%
+
+# Valores de variables espec�ficas al patr�n
+
+# No hay valores de variables espec�ficas al patr�n.
+
+# Directorios
+
+# . (llave c:/Users/gvela/Documents/proyecto_stm32/uart_modelo, mtime 1659105671): 11 archivos, no imposibilidades.
+# Core/Src (llave c:/Users/gvela/Documents/proyecto_stm32/uart_modelo/Core/Src, mtime 1659105895): No archivos, no imposibilidades hasta ahora.
+# C:\Program Files\Git\mingw64\bin (llave C:/Program Files/Git/mingw64/bin, mtime 1641319602): 109 archivos, no imposibilidades.
+# build (llave c:/Users/gvela/Documents/proyecto_stm32/uart_modelo/build, mtime 1659105792): 71 archivos, no imposibilidades.
+# Drivers/STM32F4xx_HAL_Driver/Src (llave c:/Users/gvela/Documents/proyecto_stm32/uart_modelo/Drivers/STM32F4xx_HAL_Driver/Src, mtime 1659104383): No archivos, no imposibilidades hasta ahora.
+# C:\Program Files\Git\usr\bin (llave C:/Program Files/Git/usr/bin, mtime 1641319602): 314 archivos, no imposibilidades hasta ahora.
+# Core/Src/simo (llave c:/Users/gvela/Documents/proyecto_stm32/uart_modelo/Core/Src/simo, mtime 1659105895): No archivos, no imposibilidades hasta ahora.
+# C:\Program Files\Git\usr\local\bin: podr�a no estar establecido.
+# C:\Users\gvela\bin: podr�a no estar establecido.
+
+# 505 archivos, no imposibilidades en 9 directorios.
+
+# Reglas impl�citas.
+
+build/%.o: %.c Makefile | build
+#  comandos para ejecutar (de `makefile', linea 163):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/%.o: %.s Makefile | build
+#  comandos para ejecutar (de `makefile', linea 166):
+	$(AS) -c $(CFLAGS) $< -o $@
+	
+
+build/%.hex: build/%.elf | build
+#  comandos para ejecutar (de `makefile', linea 173):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  comandos para ejecutar (de `makefile', linea 176):
+	$(BIN) $< $@	
+	
+
+# 4 reglas impl�citas, 0 (0,0%) terminal.
+
+# Archivos
+
+# No es un objetivo:
+Core/Src/stm32f4xx_hal_msp.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Core/Src/uart.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:39:37
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/stm32f4xx_hal_pwr_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Core/Inc/stm32f4xx_it.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal_exti.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:11
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_flash_ramfunc.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:09
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/main.o: Core/Src/main.c Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h Core/Inc/uart.h Core/Inc/main.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_hal_cortex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/uart_modelo.hex:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+all: build/uart_modelo.elf build/uart_modelo.hex build/uart_modelo.bin
+#  Objetivo de l�nea de instrucciones.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  Necesita ser actualizado (la opci�n -q est� activa).
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/13=0%
+
+build/stm32f4xx_hal_flash_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_it.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:05
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_hal_dma_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+.DEFAULT:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal_rcc_ex.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:08
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/stm32f4xx_hal_msp.o: Core/Src/stm32f4xx_hal_msp.c Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/uart.o: Core/Src/uart.c makefile Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h Core/Inc/uart.h | build
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  rama del patr�n impl�cita/est�tica: `uart'
+#  �ltima modificaci�n 2022-07-29 11:43:04
+#  El archivo ha sido actualizado.
+#  Necesita ser actualizado (la opci�n -q est� activa).
+# autom�tica/o
+# @ := build/uart.o
+# autom�tica/o
+# % := 
+# autom�tica/o
+# * := uart
+# autom�tica/o
+# + := Core/Src/uart.c makefile Core/Src/uart.c Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h Core/Inc/uart.h Core/Inc/main.h
+# autom�tica/o
+# | := build
+# autom�tica/o
+# < := Core/Src/uart.c
+# autom�tica/o
+# ^ := Core/Src/uart.c makefile Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h Core/Inc/uart.h
+# autom�tica/o
+# ? := makefile Core/Inc/uart.h
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=8/32=25%, Rehash=0, Colisiones=1/25=4%
+#  comandos para ejecutar (de `makefile', linea 163):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f4xx_hal_gpio.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Core/Src/stm32f4xx_it.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/uart_modelo.bin:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_hal.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/uart_modelo.elf: build/uart.o build/main.o build/stm32f4xx_it.o build/stm32f4xx_hal_msp.o build/stm32f4xx_hal_tim.o build/stm32f4xx_hal_tim_ex.o build/stm32f4xx_hal_uart.o build/stm32f4xx_hal_rcc.o build/stm32f4xx_hal_rcc_ex.o build/stm32f4xx_hal_flash.o build/stm32f4xx_hal_flash_ex.o build/stm32f4xx_hal_flash_ramfunc.o build/stm32f4xx_hal_gpio.o build/stm32f4xx_hal_dma_ex.o build/stm32f4xx_hal_dma.o build/stm32f4xx_hal_pwr.o build/stm32f4xx_hal_pwr_ex.o build/stm32f4xx_hal_cortex.o build/stm32f4xx_hal.o build/stm32f4xx_hal_exti.o build/system_stm32f4xx.o build/startup_stm32f407xx.o makefile
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:12
+#  El archivo ha sido actualizado.
+#  Necesita ser actualizado (la opci�n -q est� activa).
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/13=0%
+#  comandos para ejecutar (de `makefile', linea 169):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+	
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/stm32f4xx_hal_rcc.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal_uart.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:06
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/stm32f4xx_hal_exti.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+makefile:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:44:32
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:12
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+#  comandos para ejecutar (de `makefile', linea 179):
+	mkdir $@		
+	
+
+build/stm32f4xx_hal_flash_ramfunc.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_it.o: Core/Src/stm32f4xx_it.c Core/Inc/main.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h Core/Inc/stm32f4xx_it.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_tim.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:05
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Core/Inc/stm32f4xx_hal_conf.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:29:30
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/startup_stm32f407xx.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:11
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/CMSIS/Include/mpu_armv7.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:40
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_hal_rcc_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+startup_stm32f407xx.s:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal_pwr.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:10
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/system_stm32f4xx.o: Core/Src/system_stm32f4xx.c Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+.SUFFIXES:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_hal_tim.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/CMSIS/Include/core_cm4.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:40
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/stm32f4xx_hal_uart.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal_flash.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:08
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal_dma.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:10
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_tim_ex.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:05
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Core/Inc/main.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:42
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+clean:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 185):
+	-rm -fR $(BUILD_DIR)
+	
+
+# No es un objetivo:
+Core/Src/system_stm32f4xx.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/CMSIS/Include/cmsis_version.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:40
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_pwr_ex.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:10
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0,  
+Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/CMSIS/Include/cmsis_gcc.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:40
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/startup_stm32f407xx.o: startup_stm32f407xx.s
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/main.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:05
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_cortex.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:11
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/stm32f4xx_hal_pwr.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Core/Inc/uart.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:44:55
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_flash_ex.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:09
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal_dma_ex.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:09
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Core/Src/main.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/system_stm32f4xx.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:11
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+build/stm32f4xx_hal_flash.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Drivers/CMSIS/Include/cmsis_compiler.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:18:40
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_msp.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:05
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/uart.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:04
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_gpio.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:09
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_hal_dma.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+build/stm32f4xx_hal_tim_ex.o: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h Core/Inc/stm32f4xx_hal_conf.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h Drivers/CMSIS/Include/core_cm4.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Include/mpu_armv7.h Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+build/stm32f4xx_hal.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:11
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:19:35
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+build/stm32f4xx_hal_rcc.d:
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-07-29 11:43:08
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# estad�sticas de la tabla de hash de los archivos:
+# Carga=104/1024=10%, Rehash=0, Colisiones=10/1281=1%
+# Rutas de b�squeda VPATH
+
+vpath %.c Core/Src;Core/Src/simo;Drivers/STM32F4xx_HAL_Driver/Src
+
+# 1 rutas de b�squeda `vpath'.
+
+# No hay ruta de b�squeda general (variable `VPATH').
+
+# # of strings in strcache: 23
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3514 / max = 3514 / min = 3514 / avg = 3514
+
+# Se termina la base de datos de Make en Fri Jul 29 11:44:59 2022
+
+ 
